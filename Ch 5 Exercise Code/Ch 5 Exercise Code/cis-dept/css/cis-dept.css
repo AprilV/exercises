@@ -1,0 +1,18 @@
+:root {
+    height: 100%;
+    background: linear-gradient(45deg,#ff0000 0%, #0000ff 100%);
+}
+
+body {
+    font-family: sans-serif;
+    color: #ffffff;
+    background-color: #000000;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 120px;
+    padding-right: 120px;
+    margin: 100px 250px 100px 250px;
+    border: #ffffff 5px;
+    border-radius: 100px;
+    border-style: dashed;
+}

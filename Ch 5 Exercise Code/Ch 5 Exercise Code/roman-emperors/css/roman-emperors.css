@@ -1,0 +1,37 @@
+p.first::first-letter {
+  font-size: 200%;
+}
+
+main p:first-child {
+  font-style: italic;
+}
+
+:root {
+  --fancy-color: #502000;
+}
+
+h1,
+h2 {
+  color: var(--fancy-color);
+}
+
+p q {
+  font-variant: small-caps;
+}
+
+main>p {
+  line-height: 200%;
+}
+
+body {
+  margin: 100px 200px 100px 200px;
+  background-color: #FFF3EB;
+}
+
+#img1 {
+  border: 10px groove hsl(0, 0%, 0%);
+}
+
+.img2 {
+  border: 5px double black;
+}
